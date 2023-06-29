@@ -1,0 +1,10 @@
+.carre{
+    position: relative;
+    border: 1px solid black;
+}
+.attributes{
+    /* top: 250px; */
+    display: grid;
+    margin-top: 15px;
+    width: 100px;
+}

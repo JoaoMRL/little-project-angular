@@ -1,0 +1,16 @@
+
+<div class="carre" (click)="boTrue()" [ngStyle]="{'width.px':largeur, 'height.px':longeur,'top.px':top,'left.px':left,'background-color':newColor}"></div>
+
+<div class="attributes" *ngIf="bo" >
+    <label>Width:</label>
+    <input type="number" [(ngModel)]="largeur" >
+    <label>Height:</label>
+    <input type="number" [(ngModel)]="longeur">
+    <label for="">Top:</label>
+    <input type="number" [(ngModel)]="top">
+    <label for="">Left:</label>
+    <input type="number" [(ngModel)]="left">
+    <label for="">Color:</label>
+    <input type="color"  [(ngModel)]="newColor">
+    
+</div>
